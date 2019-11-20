@@ -9,3 +9,5 @@ class User(AbstractUser):
         settings.AUTH_USER_MODEL,
         related_name='followings'       # followings: 내가 팔로우하는 사람들
     )
+
+    

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Movie::Index{% endblock title %}
+
+{% block container %}
+<h2>Movie List</h2>
+{% comment %} {% if user.is_authenticated %} {% endcomment %}
+{% comment %} <a href="{% url 'movies:create' %}"></a> {% endcomment %}
+{% comment %} {% endif %} {% endcomment %}
+{% endblock container %}
